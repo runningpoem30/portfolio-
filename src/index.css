@@ -11,6 +11,7 @@
   font-family:PlayFair ;
   src: url("../src/assets/fonts/PlayfairDisplay-SemiBold.ttf");
 }
+@custom-variant dark (&:where(.dark, .dark *));
 @import "tailwindcss";
 
 @theme {
@@ -18,4 +19,5 @@
   --font-instrument: "Instrument Serif", serif;
   --font-roboto: "Roboto Mono", monospace;
   --font-lilex : "Lilex" , serif;
+
 }

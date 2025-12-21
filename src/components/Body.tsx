@@ -4,7 +4,9 @@ import { Tooltip } from "react-tooltip";
 function Body() {
   return (
   <div>
-      <GitHubCalendar
+    {/* github calendar */}
+    <div>
+ <GitHubCalendar
         username="runningpoem30"
         blockSize={18}
         blockMargin={6}
@@ -20,6 +22,8 @@ function Body() {
         id="react-tooltip"
         className="rounded-lg bg-black px-3 py-2 text-sm text-white shadow-lg"
       />
+    </div>
+      
     </div>
   );
 }
