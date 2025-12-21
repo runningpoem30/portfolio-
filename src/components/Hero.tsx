@@ -7,9 +7,9 @@ import { PointerHighlight } from "@/components/ui/pointer-highlight";
 
 function Body() {
   return (
-    <div className="mt-35 flex items-center justify-between gap-4 dark:text-white">
+    <div className="pt-35 flex items-center justify-between dark:text-white">
          <div className='lg:mb-95 lg:mt-15'>
-           <h1 className='font-instrument  lg:text-8xl'>Hi , I am Arya - </h1>
+           <h1 className='font-instrument lg:pt-9 lg:text-8xl'>Hi , I am Arya - </h1>
            <br/>
            <h1 className='font-instrument font-bold lg:text-3xl text-gray-500'>A Full Stack Developer based in Bengaluru , India .</h1>
            <br />
@@ -22,7 +22,7 @@ function Body() {
           <span className='text-black dark:text-white'> Express</span>,
            <span className='text-black dark:text-white'>          PostgreSQL</span>
            , and 
-<span className='text-black'> Nextjs .</span>
+<span className='text-black dark:text-white'> Nextjs .</span>
            
            </h1>
           <br/>
@@ -68,7 +68,7 @@ function Body() {
 
 
     <div className='max-w-fit lg:ml-9 lg:mb-60'>
-        <CometCard rotateDepth={5} >
+        <CometCard rotateDepth={10} >
       <button
         type="button"
         className="my-5 flex lg:w-110 cursor-pointer flex-col items-stretch rounded-[16px] border-0 bg-[#1F2121] p-2 saturate-0 md:my-20 md:p-4"
@@ -104,3 +104,7 @@ function Body() {
 }
 
 export default Body
+
+
+
+// resume | github | linkedin | X | Email 

@@ -1,9 +1,22 @@
 import {GitHubCalendar} from "react-github-calendar";
 import { Tooltip } from "react-tooltip";
+import { HoverBorderGradient } from "../components/ui/hover-board-gradient";
 
 function Body() {
   return (
   <div>
+  
+   <div className="flex justify-center text-center">
+      <HoverBorderGradient
+        containerClassName=""
+        as="button"
+        className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
+      >
+        <span>Aceternity UI</span>
+      </HoverBorderGradient>
+    </div>
+  
+  
     {/* github calendar */}
     <div>
  <GitHubCalendar
