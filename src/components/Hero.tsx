@@ -1,7 +1,6 @@
 
 import PortfolioImage from '../../images/portfolioimg.jpg'
 import { CometCard } from './ui/comet-card'
-import Highlight from './ui/Highlight'
 import TwitterLogo from '../../images/Twitter_Verified_Badge.svg'
 import { PointerHighlight } from "@/components/ui/pointer-highlight";
 
