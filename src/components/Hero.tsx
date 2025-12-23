@@ -1,13 +1,13 @@
 
 import PortfolioImage from '../../images/portfolioimg.jpg'
 import { CometCard } from './ui/comet-card'
-import TwitterLogo from '../../images/Twitter_Verified_Badge.svg'
 import { PointerHighlight } from "@/components/ui/pointer-highlight";
 
 function Body() {
   return (
     <div className="pt-35 flex items-center justify-between dark:text-white">
-         <div className='lg:mb-95 lg:mt-15'>
+      {/* this is the hero main section which consists of paragraph */}
+      <div className=''>
            <h1 className='font-instrument lg:pt-9 lg:text-8xl'>Hi , I am Arya - </h1>
            <br/>
            <h1 className='font-instrument font-bold lg:text-3xl text-gray-500'>A Full Stack Developer based in Bengaluru , India .</h1>
@@ -65,8 +65,8 @@ function Body() {
          </div>
          
 
-
-    <div className='max-w-fit lg:ml-9 lg:mb-60'>
+       {/* this is comet card */}
+    <div className='max-w-fit lg:ml-9 '>
         <CometCard rotateDepth={10} >
       <button
         type="button"

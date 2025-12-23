@@ -1,7 +1,7 @@
 import './App.css'
 import Header from './components/Header'
 import Hero from './components/Hero'
-import Body from './components/Body'
+import Body from './components/Github'
 function App() {
   return (
     <div className="min-h-screen bg-white dark:bg-black">
