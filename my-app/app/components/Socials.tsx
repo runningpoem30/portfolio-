@@ -1,5 +1,5 @@
-import { Button } from "./ui/button";
-import { Tooltip, TooltipContent, TooltipTrigger} from "./ui/tooltip"
+import { Button } from "../../app/ui/button";
+import { Tooltip, TooltipContent, TooltipTrigger} from "../../app/ui/tooltip"
 import { IconFileCv } from "@tabler/icons-react"
 import {IconBrandTelegram} from "@tabler/icons-react"
 

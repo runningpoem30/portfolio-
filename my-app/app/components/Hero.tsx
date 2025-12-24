@@ -1,7 +1,6 @@
-
 import PortfolioImage from '../../images/portfolioimg.jpg'
-import { CometCard } from './ui/comet-card'
-import { PointerHighlight } from "@/components/ui/pointer-highlight";
+import { CometCard } from '../../app/ui/comet-card'
+import { PointerHighlight } from "../../app/ui/pointer-highlight";
 
 function Body() {
   return (
