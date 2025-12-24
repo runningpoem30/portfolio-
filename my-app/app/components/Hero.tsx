@@ -1,13 +1,14 @@
-import PortfolioImage from '../../images/portfolioimg.jpg'
+
+import PortfolioImage from '../../public/images/portfolioimg.jpg'
 import { CometCard } from '../../app/ui/comet-card'
 import { PointerHighlight } from "../../app/ui/pointer-highlight";
-
+import Image from 'next/image';
 function Body() {
   return (
     <div className="pt-35 flex items-center justify-between dark:text-white">
       {/* this is the hero main section which consists of paragraph */}
       <div className=' lg:mt-15'>
-           <h1 className='font-instrument lg:pt-9 lg:text-8xl'>Hi , I am Arya - </h1>
+           <h1 className='font-instrument lg:text-8xl'>Hi , I am Arya - </h1>
            <br/>
            <h1 className='font-instrument font-bold lg:text-3xl text-gray-500'>A Full Stack Developer based in Bengaluru , India .</h1>
            <br />
@@ -78,7 +79,7 @@ function Body() {
       >
         <div className="mx-2 flex-1">
           <div className="relative mt-2 aspect-[3/4] ">
-            <img
+            <Image
               loading="lazy"
               className="absolute inset-0 h-full w-full rounded-[16px]  object-cover "
               alt="Invite background"

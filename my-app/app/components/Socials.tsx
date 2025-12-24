@@ -1,3 +1,4 @@
+"use client";
 import { Button } from "../../app/ui/button";
 import { Tooltip, TooltipContent, TooltipTrigger} from "../../app/ui/tooltip"
 import { IconFileCv } from "@tabler/icons-react"
