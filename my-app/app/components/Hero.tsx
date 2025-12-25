@@ -5,13 +5,12 @@ import { PointerHighlight } from "../../app/ui/pointer-highlight";
 import Image from 'next/image';
 function Body() {
   return (
-    <div className="pt-35 flex items-center justify-between dark:text-white">
+    <div className="pt-20 flex items-center justify-between dark:text-white">
       {/* this is the hero main section which consists of paragraph */}
-      <div className=' lg:mt-15'>
+      <div className=''>
            <h1 className='font-instrument lg:text-8xl'>Hi , I am Arya - </h1>
            <br/>
            <h1 className='font-instrument font-bold lg:text-3xl text-gray-500'>A Full Stack Developer based in Bengaluru , India .</h1>
-           <br />
            <br />
            <br />
            <h1 className='font-lilex lg:text-2xl text-black/50 dark:text-white/50'>I build modern web applications using 
@@ -41,7 +40,7 @@ function Body() {
       </PointerHighlight> reliable, and easy to maintain.
            </p>
         <br/>
-           <h1 className='lg:text-2xl text-black/50 font-lilex dark:text-white/50'>
+           {/* <h1 className='lg:text-2xl text-black/50 font-lilex dark:text-white/50'>
             I care deeply about <PointerHighlight
             rectangleClassName="bg-neutral-200 dark:bg-yellow-300  bg-yellow-300 border-neutral-300 dark:border-neutral-600 leading-loose"
             pointerClassName="text-yellow-500 h-3 w-3"
@@ -49,7 +48,7 @@ function Body() {
           >
             <span className="relative z-10 dark:text-black/50">performance</span>
       </PointerHighlight>, architecture, and building products that feel good to use and solid under the hood. I have also won 3 hackathons.
-           </h1>
+           </h1> */}
         <br/>
             <h1 className='lg:text-2xl text-black/50 font-lilex'><PointerHighlight
             rectangleClassName="bg-neutral-200 dark:bg-blue-300  bg-blue-300 border-neutral-300 dark:border-neutral-600 leading-loose"
