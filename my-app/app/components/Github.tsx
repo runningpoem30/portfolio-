@@ -9,7 +9,7 @@ import { Activity } from "react";
 
 function Body() {
   return (
-  <div className="mt-10">
+  <div className="lg:mt-20">
 
 
 

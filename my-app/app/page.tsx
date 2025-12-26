@@ -4,6 +4,7 @@ import Socials from "./components/Socials";
 import Github from "./components/Github"
 import TechStack from "./components/TechStack";
 import Projects from "./components/Projects";
+import HackathonWins from "./components/HackathonWins";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
   <TechStack/>
    <Github/>
    <Projects/>
+   <HackathonWins/>
 
    </div>
     </div>
