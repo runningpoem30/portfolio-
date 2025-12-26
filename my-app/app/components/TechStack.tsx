@@ -22,11 +22,11 @@ function TechBadge({ src, name }: { src: string; name: string }) {
 function TechStack() {
   return (
     <div>  
-        <div>
+        <div className='mb-8'>
             <h1 className='font-instrument font-bold lg:text-3xl' >Tools and Technology</h1>
         </div>
 
-            <Marquee speed={20} pauseOnHover={true} className='flex gap-4'>
+<Marquee speed={60} pauseOnHover={true} className='flex gap-4 mb-5'>
                 <div className='flex gap-4'>
     {/* nodejs button */}
         <Button
@@ -172,7 +172,7 @@ function TechStack() {
  </Marquee>
 
 
-    <Marquee>
+    <Marquee speed={60} pauseOnHover={true} direction={'right'}className='flex gap-4'>
         <div className='flex gap-4'>
         {/* this is bun button  */}
           <Button
@@ -313,13 +313,6 @@ function TechStack() {
   />
    Homebrew
     </Button>
-
-
-
-
-
-
-        
 
         </div>
     </Marquee>
