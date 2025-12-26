@@ -35,9 +35,9 @@ function HackathonWins() {
         <div className='flex'>
        <div className='border-1 border-gray-300 rounded-xl '>
             <Image 
-            src="/images/hackthisfall.svg"
+            src="/images/hacktofuturelogo.svg"
             alt="Hack This Fall"
-            width={110}
+            width={90}
             height={20}
             />
         </div>
@@ -46,13 +46,31 @@ function HackathonWins() {
              <h1 className='font-lilex lg:text-l lg:ml-3 font-bold'><a href='https://unstop.com/hackathons/hacktofuture-30-st-joseph-engineering-college-mangaluru-1380851' target='black' rel='noopener noerferrer' className='text-blue-700'>HackToFuture 3.0</a> by @St.Joseph's Engineering College, Mangalore</h1>
         </div>
         </div>
-        <p className='font-lilex lg:mt-5'>Built a decentralized platform that allows patients and doctors to securely upload, store, and instantly access medical records, enabling faster sharing and seamless retrieval when needed.
+        <p className='font-lilex lg:mt-5'>Built a decentralized platform in 48 hours hackathon that allows patients and doctors to securely upload, store, and instantly access medical records, enabling faster sharing and seamless retrieval when needed.
          </p>
-         <p className='font-lilex font-bold'>
-            Check it out : <a className='text-blue-700 font-bold text-m'  href='https://apify.com/stylish_panduri/gitwrap' target="_blank" rel="noopener noreferrer" >gitwrap</a>
-         </p>
+        
       </div>
 
+      {/* this is for isolve hackathon */}
+           <div className='border-1 border-gray-300 lg:h-50 rounded-xl lg:p-2 lg:pt-4 lg:mb-10 '>
+        <div className='flex'>
+       <div className='border-1 border-gray-300 rounded-xl '>
+            <Image 
+            src="/images/hacktofuturelogo.svg"
+            alt="Hack This Fall"
+            width={90}
+            height={20}
+            />
+        </div>
+        <div>
+            <h1 className='font-lilex lg:text-2xl lg:ml-3 font-bold'>2nd Place</h1>
+             <h1 className='font-lilex lg:text-l lg:ml-3 font-bold'><a href='https://i-solve-final.vercel.app/' target='black' rel='noopener noerferrer' className='text-blue-700'>iSolve Hackathon</a> by @Nitte Meenakshi Institute of Technology , Bengaluru</h1>
+        </div>
+        </div>
+        <p className='font-lilex lg:mt-5'>Built a smart carpooling system in a 24-hour hackathon designed to reduce Bengaluru’s traffic by intelligently matching commuters with similar routes and schedules.
+         </p>
+        
+      </div>
 
 
 
