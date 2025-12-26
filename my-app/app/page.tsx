@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Socials from "./components/Socials";
 import Github from "./components/Github"
 import TechStack from "./components/TechStack";
+import Projects from "./components/Projects";
 
 export default function Home() {
   return (
@@ -11,8 +12,9 @@ export default function Home() {
    <Header/>
    <Hero/>
    <Socials/>
-      <TechStack/>
+  <TechStack/>
    <Github/>
+   <Projects/>
 
    </div>
     </div>

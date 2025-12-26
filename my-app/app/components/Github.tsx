@@ -4,7 +4,8 @@ import { Button } from "../../app/ui/button"
 import { Tooltip, TooltipContent, TooltipTrigger} from "../../app/ui/tooltip"
 import { IconFileCv } from "@tabler/icons-react"
 import {IconBrandTelegram} from "@tabler/icons-react"
-import 'react-activity-calendar/tooltips.css';
+import { Activity } from "react";
+
 
 function Body() {
   return (
@@ -14,12 +15,13 @@ function Body() {
 
     {/* github calendar */}
     <div className="font-lilex">
- <GitHubCalendar
+  <GitHubCalendar
         username="runningpoem30"
         blockSize={18}
         blockMargin={6}
         fontSize={16}
        colorScheme="light"
+
         theme={{
       light: [
   "#e9d5ff",
