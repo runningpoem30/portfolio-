@@ -1,7 +1,7 @@
 import "./globals.css";
 import { Instrument_Serif, Inter , Lilex } from "next/font/google";
 import { TooltipProvider } from "./ui/tooltip";
-
+import type { ReactNode } from "react";
 
 // 2. Initialize the fonts
 const instrument = Instrument_Serif({
@@ -19,7 +19,7 @@ const lilex = Lilex({
   variable: "--font-lilex",
 });
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children } : {children : ReactNode}) {
   return (
     <html lang="en" className="scroll-smooth" >
       <body className="min-h-screen bg-white dark:bg-black">

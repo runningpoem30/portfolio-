@@ -21,7 +21,7 @@ function ContactMe() {
         })
     }
 
-    async function handleSubmit(event : React.FormEvent<HTMLFormElement>){
+    async function handleSubmit(event : React .FormEvent<HTMLFormElement>){
         event.preventDefault()
         const res = await fetch("/api/contact", {
     method: "POST",
