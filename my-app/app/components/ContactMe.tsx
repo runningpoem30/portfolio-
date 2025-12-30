@@ -14,14 +14,14 @@ function ContactMe() {
         message : ""
     })
 
-    function handleChange(event){
+    function handleChange(event :  React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>){
         setFormData({
             ...formData,
             [event.target.name] : event.target.value
         })
     }
 
-    async function handleSubmit(event){
+    async function handleSubmit(event :  React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>){
         event.preventDefault()
         const res = await fetch("/api/contact", {
     method: "POST",
