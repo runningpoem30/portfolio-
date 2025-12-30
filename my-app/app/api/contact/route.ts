@@ -1,3 +1,4 @@
+export const runtime = "nodejs";
 import clientPromise from "../../lib/mongoose";
 import nodemailer from "nodemailer";
 import { z } from "zod";
