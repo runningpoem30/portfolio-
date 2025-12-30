@@ -1,5 +1,5 @@
 "use client";
-import GitHubCalendar from 'react-github-calendar'
+import {GitHubCalendar} from 'react-github-calendar'
 
 
 
