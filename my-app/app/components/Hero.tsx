@@ -8,7 +8,7 @@ function Body() {
     <div className="lg:pt-20 flex lg:flex-row flex-col items-center justify-between dark:text-white">
       {/* this is the hero main section which consists of paragraph */}
       <div >
-           <h1 className='font-instrument lg:text-8xl text-4xl'>Hi , I am Arya</h1>
+           <h1 className='font-instrument lg:text-8xl text-4xl mt-2 lg:mt-1'>Hi , I am Arya</h1>
            <br/>
            <h1 className='font-instrument font-bold lg:text-3xl text-gray-500'>A Full Stack Developer based in Bengaluru , India .</h1>
            <br />
