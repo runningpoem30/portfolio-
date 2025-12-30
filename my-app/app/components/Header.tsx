@@ -43,9 +43,9 @@ function ThemeToggleTwo() {
 
 function Header() {
   return ( 
-    <div id='header' className='pt-7 pb-10 lg:pb-1 rounded-10 ml-4' >
+    <div id='header' className='pt-7 pb-10 lg:pb-1 rounded-10  ' >
         <div className='pb-8 font-instrument '>
-<nav className="fixed  backdrop-blur-md  top-0 z-50 flex lg:gap-6 gap-2 lg:text-3xl justify-end dark:bg-black/50 bg-white/50 pb-7 pt-7 border-1 border-gray-100 dark:border-white/10 rounded-xl pl-1 pr-1 lg:pl-4 lg:pr-4">
+<nav className="fixed left-1/2 -translate-x-1/2 backdrop-blur-md  top-0 z-50 flex lg:gap-6 gap-2 lg:text-3xl justify-end dark:bg-black/50 bg-white/50 pb-7 pt-7 border-1 border-gray-100 dark:border-white/10 rounded-xl pl-1 pr-1 lg:pl-4 lg:pr-4 mt-3 items-center">
             <a className='lg:mr-186 mr-28 cursor-pointer' href='#header'>aryapathak</a>
  
             <a href='#projects' className='cursor-pointer scroll-smooth'>projects</a>
