@@ -49,7 +49,7 @@ function ContactMe() {
 
 
   return ( 
-    <div>
+    <div id='contact'>
        <div  className='font-instrument font-bold lg:text-3xl lg:mt-10 lg:mb-10 text-3xl mt-5'>Contact Me</div>
        <h1 className='font-lilex font-bold lg:text-xl mb-1'>Send me a message </h1>
        <h1 className='font-lilex mt-4'>Fill out the form below and I'll respond back to you within 24 hours ... </h1>

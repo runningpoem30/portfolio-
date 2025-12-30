@@ -24,13 +24,16 @@ function Socials() {
 
 {/* 
 this is get in touch button */}
-          <Button
-            variant="outline"
-            className="lg:px-6 lg:py-7 font-lilex font-light lg:text-xl flex items-center gap-2 lg:[&_svg]:h-8 lg:[&_svg]:w-8 cursor-pointer"
-          >
-            <IconBrandTelegram size={80} /> 
-            Get in touch !
-          </Button>
+         <a href="#contact" className="inline-block">
+  <Button
+    variant="outline"
+    className="lg:px-6 lg:py-7 font-lilex font-light lg:text-xl flex items-center gap-2 lg:[&_svg]:h-8 lg:[&_svg]:w-8 cursor-pointer"
+  >
+    <IconBrandTelegram />
+    Get in touch !
+  </Button>
+</a>
+
 </div>
 
 <div className="lg:w-[0.3px] lg:h-8 lg:bg-gray-400 mt-2" />

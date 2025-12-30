@@ -6,7 +6,8 @@ import TechStack from "./components/TechStack";
 import Projects from "./components/Projects";
 import HackathonWins from "./components/HackathonWins";
 import ContactMe from "./components/ContactMe";
-
+import Blogs from "./components/Blogs";
+import Footer from "./components/Footer";
 export default function Home() {
   return (
      <div className="min-h-screen overflow-x-hidden bg-white dark:bg-black ">
@@ -22,7 +23,10 @@ export default function Home() {
    <Github/>
    <Projects/>
    <HackathonWins/>
+   <Blogs/>
    <ContactMe/>
+   <Footer/>
+
 
    </div>
     </div>
