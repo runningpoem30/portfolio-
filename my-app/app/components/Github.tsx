@@ -11,10 +11,8 @@ function Body() {
   return (
   <div className="lg:mt-20">
 
-
-
     {/* github calendar */}
-    <div className="font-lilex">
+    <div className="font-lilex overflow-x-auto w-full">
   <GitHubCalendar
         username="runningpoem30"
         blockSize={18}

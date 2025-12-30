@@ -3,17 +3,18 @@ import { Button } from "../../app/ui/button";
 import { Tooltip, TooltipContent, TooltipTrigger} from "../../app/ui/tooltip"
 import { TooltipArrow } from "@radix-ui/react-tooltip";
 import { IconFileCv } from "@tabler/icons-react"
-import {IconBrandTelegram , IconBrandX , IconBrandGithub ,IconBrandDiscordFilled , IconBrandDiscord , IconMail } from "@tabler/icons-react"
+import {IconBrandTelegram , IconBrandX , IconBrandGithub  , IconBrandDiscord , IconMail } from "@tabler/icons-react"
 
 
 function Socials() {
   return (
     <div className="lg:py-8">
-          <div className="flex">
-      <div className="flex gap-x-5">
+          <div className="flex ">
+      <div className="flex gap-x-5 lg:flex-row flex-col">
 
 {/* this is resume button */}
-          <Button
+<div className="flex gap-x-2">
+            <Button
   variant="outline"
   className="px-6 py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8 cursor-pointer"
 >
@@ -30,7 +31,9 @@ this is get in touch button */}
             <IconBrandTelegram size={80} /> 
             Get in touch !
           </Button>
-<div className="w-[0.3px] h-8 bg-gray-400 mt-2" />
+</div>
+
+<div className="lg:w-[0.3px] lg:h-8 lg:bg-gray-400 mt-2" />
 
 
 <div className="flex gap-2">
@@ -98,7 +101,6 @@ this is get in touch button */}
 </Tooltip>
 </div>
 
-
 {/* this is discord button */}
 <div>
  <Tooltip>
@@ -120,10 +122,6 @@ this is get in touch button */}
   </TooltipContent>
 </Tooltip>
 </div>
-
-
-
-
 
 </div>
    

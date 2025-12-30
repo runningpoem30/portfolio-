@@ -22,8 +22,8 @@ function TechBadge({ src, name }: { src: string; name: string }) {
 function TechStack() {
   return (
     <div>  
-        <div className='lg:mb-8'>
-            <h1 className='font-instrument font-bold lg:text-3xl lg:mt-10' >Tools and Technology</h1>
+        <div className='mb-8'>
+            <h1 className='font-instrument font-bold text-3xl mt-10' >Tools and Technology</h1>
         </div>
 
 <Marquee speed={60} pauseOnHover={true} className='flex gap-4 mb-5'>
@@ -313,7 +313,6 @@ function TechStack() {
   />
    Homebrew
     </Button>
-
         </div>
     </Marquee>
 
