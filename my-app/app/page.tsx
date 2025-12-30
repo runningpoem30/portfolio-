@@ -10,8 +10,12 @@ import ContactMe from "./components/ContactMe";
 export default function Home() {
   return (
      <div className="min-h-screen overflow-x-hidden bg-white dark:bg-black ">
+
+
+
         <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
-   <Header/>
+
+         <Header/>
    <Hero/>
    <Socials/>
   <TechStack/>

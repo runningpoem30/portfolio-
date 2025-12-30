@@ -26,12 +26,12 @@ function TechStack() {
             <h1 className='font-instrument font-bold text-3xl mt-10' >Tools and Technology</h1>
         </div>
 
-<Marquee speed={60} pauseOnHover={true} className='flex gap-4 mb-5'>
+<Marquee speed={70} pauseOnHover={true} className='flex gap-4 mb-5'>
                 <div className='flex gap-4'>
     {/* nodejs button */}
         <Button
   variant="outline"
-  className="px-6 py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
+  className="lg:px-6 lg:py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
 >
  <Image
     src="/Techicons/nodejs/nodejs-original.svg"
@@ -45,7 +45,7 @@ function TechStack() {
     {/* react button */}
         <Button
   variant="outline"
-  className="px-6 py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
+  className="lg:px-6 lg:py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
 >
  <Image
     src="/Techicons/react/react-original.svg"
@@ -59,7 +59,7 @@ function TechStack() {
     {/* typescript button */}
           <Button
   variant="outline"
-  className="px-6 py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
+  className="lg:px-6 lg:py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
 >
  <Image
     src="/Techicons/typescript/typescript-original.svg"
@@ -73,7 +73,7 @@ function TechStack() {
     {/* this is nextjs button */}
           <Button
   variant="outline"
-  className="px-6 py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
+  className="lg:px-6 lg:py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
 >
  <Image
     src="/Techicons/nextjs/nextjs-original.svg"
@@ -87,7 +87,7 @@ function TechStack() {
     {/* this is docker button */}
     <Button
   variant="outline"
-  className="px-6 py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
+  className="lg:px-6 lg:py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
 >
  <Image
     src="/Techicons/docker/docker-original.svg"
@@ -101,7 +101,7 @@ function TechStack() {
      {/* this is tailwind css */}
         <Button
   variant="outline"
-  className="px-6 py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
+  className="lg:px-6 lg:py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
 >
  <Image
     src="/Techicons/tailwindcss/tailwindcss-original.svg"
@@ -116,7 +116,7 @@ function TechStack() {
     {/* this is html button */}
         <Button
   variant="outline"
-  className="px-6 py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
+  className="lg:px-6 lg:py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
 >
  <Image
     src="/Techicons/html5/html5-original.svg"
@@ -130,7 +130,7 @@ function TechStack() {
     {/* this is css button */}
      <Button
   variant="outline"
-  className="px-6 py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
+  className="lg:px-6 lg:py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
 >
  <Image
     src="/Techicons/css3/css3-original.svg"
@@ -144,7 +144,7 @@ function TechStack() {
     {/* this is javascript button */}
     <Button
   variant="outline"
-  className="px-6 py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
+  className="lg:px-6 lg:py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
 >
  <Image
     src="/Techicons/javascript/javascript-original.svg"
@@ -158,7 +158,7 @@ function TechStack() {
     {/* this is graphql button */}
      <Button
   variant="outline"
-  className="px-6 py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
+  className="lg:px-6 lg:py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
 >
  <Image
     src="/Techicons/graphql/graphql-plain.svg"
@@ -172,12 +172,12 @@ function TechStack() {
  </Marquee>
 
 
-    <Marquee speed={60} pauseOnHover={true} direction={'right'}className='flex gap-4'>
+    <Marquee speed={70} pauseOnHover={true} direction={'right'}className='flex gap-4'>
         <div className='flex gap-4'>
         {/* this is bun button  */}
           <Button
   variant="outline"
-  className="px-6 py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
+  className="lg:px-6 lg:py-7  font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
 >
  <Image
     src="/Techicons/bun/bun-original.svg"
@@ -191,7 +191,7 @@ function TechStack() {
     {/* this is express button */}
     <Button
   variant="outline"
-  className="px-6 py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
+  className="lg:px-6 lg:py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
 >
 
     <span className='text-1xl'>ex</span>
@@ -201,7 +201,7 @@ function TechStack() {
     {/* this is postgress button */}
              <Button
   variant="outline"
-  className="px-6 py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
+  className="lg:px-6 lg:py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
 >
  <Image
     src="/Techicons/postgresql/postgresql-original.svg"
@@ -215,7 +215,7 @@ function TechStack() {
      {/* this is sql button */}
     <Button
   variant="outline"
-  className="px-6 py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
+  className="lg:px-6 lg:py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
 >
  <Image
     src="/Techicons/mysql/mysql-original.svg"
@@ -229,7 +229,7 @@ function TechStack() {
      {/* this is a github button */}
     <Button
   variant="outline"
-  className="px-6 py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
+  className="lg:px-6 lg:py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
 >
  <Image
     src="/Techicons/github/github-original.svg"
@@ -243,7 +243,7 @@ function TechStack() {
 {/* this is a git button */}
      <Button
   variant="outline"
-  className="px-6 py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
+  className="lg:px-6 lg:py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
 >
  <Image
     src="/Techicons/git/git-original.svg"
@@ -258,7 +258,7 @@ function TechStack() {
     {/* this is a postman button */}
     <Button
   variant="outline"
-  className="px-6 py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
+  className="lg:px-6 lg:py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
 >
  <Image
     src="/Techicons/postman/postman-original.svg"
@@ -273,7 +273,7 @@ function TechStack() {
     {/* this is a mongodb button */}
     <Button
   variant="outline"
-  className="px-6 py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
+  className="lg:px-6 lg:py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
 >
  <Image
     src="/Techicons/mongodb/mongodb-original.svg"
@@ -288,7 +288,7 @@ function TechStack() {
     {/* this is a nginx button */}
     <Button
   variant="outline"
-  className="px-6 py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
+  className="lg:px-6 lg:py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
 >
  <Image
     src="/Techicons/nginx/nginx-original.svg"
@@ -303,7 +303,7 @@ function TechStack() {
     {/* this is homebrew button */}
     <Button
   variant="outline"
-  className="px-6 py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
+  className="lg:px-6 lg:py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
 >
  <Image
     src="/Techicons/homebrew/homebrew-original.svg"

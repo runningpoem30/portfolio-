@@ -9,17 +9,16 @@ import { Activity } from "react";
 
 function Body() {
   return (
-  <div className="lg:mt-20">
+  <div className="lg:mt-20 mt-15">
 
     {/* github calendar */}
-    <div className="font-lilex overflow-x-auto w-full">
+    <div className="font-lilex scale-[0.90]">
   <GitHubCalendar
         username="runningpoem30"
         blockSize={18}
         blockMargin={6}
         fontSize={16}
        colorScheme="light"
-
         theme={{
       light: [
   "#e9d5ff",

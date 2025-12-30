@@ -3,12 +3,12 @@ import { Button } from "../../app/ui/button";
 import { Tooltip, TooltipContent, TooltipTrigger} from "../../app/ui/tooltip"
 import { TooltipArrow } from "@radix-ui/react-tooltip";
 import { IconFileCv } from "@tabler/icons-react"
-import {IconBrandTelegram , IconBrandX , IconBrandGithub  , IconBrandDiscord , IconMail } from "@tabler/icons-react"
+import {IconBrandTelegram , IconBrandX , IconBrandGithub  , IconBrandDiscord , IconMail , IconMoon } from "@tabler/icons-react"
 
 
 function Socials() {
   return (
-    <div className="lg:py-8">
+    <div className="lg:py-8 mt-10 lg:mt-1">
           <div className="flex ">
       <div className="flex gap-x-5 lg:flex-row flex-col">
 
@@ -16,9 +16,9 @@ function Socials() {
 <div className="flex gap-x-2">
             <Button
   variant="outline"
-  className="px-6 py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8 cursor-pointer"
+  className="lg:px-6 lg:py-7 font-lilex font-light lg:text-xl flex items-center gap-2 lg:[&_svg]:h-8 lg:[&_svg]:w-8 cursor-pointer"
 >
-  <IconFileCv size={80} /> 
+  <IconFileCv size={70} /> 
   Resume
          </Button>
 
@@ -26,7 +26,7 @@ function Socials() {
 this is get in touch button */}
           <Button
             variant="outline"
-            className="px-6 py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8 cursor-pointer"
+            className="lg:px-6 lg:py-7 font-lilex font-light lg:text-xl flex items-center gap-2 lg:[&_svg]:h-8 lg:[&_svg]:w-8 cursor-pointer"
           >
             <IconBrandTelegram size={80} /> 
             Get in touch !
@@ -42,7 +42,7 @@ this is get in touch button */}
  <Tooltip>
   <a href="https://x.com/PoemRunning" target="_blank"
   rel="noopener noreferrer">  <TooltipTrigger asChild>
-    <Button variant="outline" className="py-6 px-4 rounded-lg border-2 cursor-pointer [&_svg]:h-8 [&_svg]:w-8 ">
+    <Button variant="outline" className="lg:py-6 lg:px-4 rounded-lg border-2 cursor-pointer lg:[&_svg]:h-8 lg:[&_svg]:w-8 ">
       <IconBrandX />
     </Button>
   </TooltipTrigger></a>
@@ -64,7 +64,7 @@ this is get in touch button */}
  <Tooltip>
   <a href="https://github.com/runningpoem30"  target="_blank"
   rel="noopener noreferrer"> <TooltipTrigger asChild>
-    <Button variant="outline" className="py-6 px-4 rounded-lg border-2 cursor-pointer [&_svg]:h-8 [&_svg]:w-8 ">
+    <Button variant="outline" className="lg:py-6 lg:px-4 rounded-lg border-2 cursor-pointer lg:[&_svg]:h-8 lg:[&_svg]:w-8 ">
       <IconBrandGithub />
     </Button>
   </TooltipTrigger></a>
@@ -85,7 +85,7 @@ this is get in touch button */}
  <Tooltip>
   <a href="mailto:aryaanandpathak30@gmail.com"  target="_blank"
   rel="noopener noreferrer"> <TooltipTrigger asChild>
-    <Button variant="outline" className="py-6 px-4 rounded-lg border-2 cursor-pointer [&_svg]:h-8 [&_svg]:w-8 ">
+    <Button variant="outline" className="lg:py-6 lg:px-4 rounded-lg border-2 cursor-pointer lg:[&_svg]:h-8 lg:[&_svg]:w-8 ">
       <IconMail />
     </Button>
   </TooltipTrigger></a>
@@ -107,7 +107,7 @@ this is get in touch button */}
   <a href="https://discord.com/users/783415905572880404"
       target="_blank"
       rel="noopener noreferrer"> <TooltipTrigger asChild>
-    <Button variant="outline" className="py-6 px-4 rounded-lg border-2 cursor-pointer [&_svg]:h-8 [&_svg]:w-8 ">
+    <Button variant="outline" className="lg:py-6 lg:px-4 rounded-lg border-2 cursor-pointer lg:[&_svg]:h-8 lg:[&_svg]:w-8 ">
       <IconBrandDiscord />
     </Button>
   </TooltipTrigger></a>

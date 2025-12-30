@@ -21,7 +21,7 @@ const lilex = Lilex({
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" >
+    <html lang="en" className="scroll-smooth" >
       <body className="min-h-screen bg-white dark:bg-black">
      <TooltipProvider delayDuration={0}>         {children} </TooltipProvider>
 
