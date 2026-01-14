@@ -9,7 +9,7 @@ import {IconBrandTelegram} from "@tabler/icons-react"
 function ContactMe() {
     const [formData , setFormData] = useState({
         name : "",
-        phoneNumber : "" ,
+        ///phoneNumber : "" ,
         email : "" ,
         message : ""
     })
@@ -39,7 +39,7 @@ function ContactMe() {
   // optional: reset form
   setFormData({
     name: "",
-    phoneNumber: "",
+    ///phoneNumber: "",
     email: "",
     message: "",
   });
@@ -59,7 +59,7 @@ function ContactMe() {
 
         <Input value={formData.name} onChange={handleChange} type="text" name="name" placeholder="Full Name" className='lg:w-150 h-15 placeholder:text-xl placeholder:font-lilex text-lg !text-xl font-lilex mb-5'/>
 
-       <Input value={formData.phoneNumber}  onChange={handleChange} type="tel" name='phoneNumber' placeholder="+91 xxx-xxxx" className='lg:w-150 h-15 placeholder:text-xl placeholder:font-lilex !text-xl font-lilex'/>
+       {/* <Input value={formData.phoneNumber}  onChange={handleChange} type="tel" name='phoneNumber' placeholder="+91 xxx-xxxx" className='lg:w-150 h-15 placeholder:text-xl placeholder:font-lilex !text-xl font-lilex'/> */}
        </div>
 
        <Input value={formData.email} onChange={handleChange}  type="email" name="email" placeholder="your.email@example.com" className='h-15 placeholder:text-xl placeholder:font-lilex !text-xl font-lilex ' />

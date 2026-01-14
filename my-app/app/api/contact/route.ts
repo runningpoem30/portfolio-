@@ -6,7 +6,7 @@ import { z } from "zod";
 const contactSchema = z.object({
   name: z.string().min(2),
   email: z.string().email(),
-  phoneNumber: z.string().min(8),
+  ////phoneNumber: z.string().min(8),
   message: z.string().min(10),
 });
 
@@ -38,7 +38,7 @@ export async function POST(req: Request) {
       text: `
 Name: ${data.name}
 Email: ${data.email}
-Phone: ${data.phoneNumber}
+
 
 Message:
 ${data.message}
