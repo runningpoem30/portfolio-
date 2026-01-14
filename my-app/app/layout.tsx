@@ -2,6 +2,7 @@ import "./globals.css";
 import { Instrument_Serif, Inter , Lilex } from "next/font/google";
 import { TooltipProvider } from "./ui/tooltip";
 import type { ReactNode } from "react";
+import { Analytics } from "@vercel/analytics/next"
 
 // 2. Initialize the fonts
 const instrument = Instrument_Serif({
@@ -21,7 +22,9 @@ const lilex = Lilex({
 
 export default function RootLayout({ children } : {children : ReactNode}) {
   return (
+  
     <html lang="en" className="scroll-smooth" >
+        <Analytics/>
       <body className="min-h-screen bg-white dark:bg-black">
      <TooltipProvider delayDuration={0}>         {children} </TooltipProvider>
 
