@@ -71,6 +71,7 @@ function ContactMe() {
 />
 
      <Button
+            type="submit"
             variant="outline"
             className="px-6 py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8 cursor-pointer mb-5 lg:w-70 lg:w-60 w-50 mt-5 text-lg"
           >

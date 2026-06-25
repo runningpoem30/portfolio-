@@ -1,12 +1,11 @@
 export const runtime = "nodejs";
-import clientPromise from "../../lib/mongoose";
+
 import nodemailer from "nodemailer";
 import { z } from "zod";
 
 const contactSchema = z.object({
   name: z.string().min(2),
   email: z.string().email(),
-  ////phoneNumber: z.string().min(8),
   message: z.string().min(10),
 });
 
@@ -15,40 +14,35 @@ export async function POST(req: Request) {
     const body = await req.json();
     const data = contactSchema.parse(body);
 
-    const client = await clientPromise;
-    const db = client.db("portfolio");
+    const { GMAIL_USER, GMAIL_PASSWORD, HOST } = process.env;
 
-    const transporter = nodemailer.createTransport({
-      host: process.env.HOST,
-      port: 587,
-      secure: false,
-      auth: {
-        user: process.env.GMAIL_USER,
-        pass: process.env.GMAIL_PASSWORD,
-      },
-    });
+    if (GMAIL_USER && GMAIL_PASSWORD && HOST) {
+      const transporter = nodemailer.createTransport({
+        host: HOST,
+        port: 587,
+        secure: false,
+        auth: {
+          user: GMAIL_USER,
+          pass: GMAIL_PASSWORD,
+        },
+      });
 
-    console.log(process.env.GMAIL_USER)
-
-    await transporter.sendMail({
-      from: `"Portfolio Contact" <${process.env.GMAIL_USER}>`,
-      to: process.env.GMAIL_USER,
-      replyTo: data.email,
-      subject: `New message from ${data.name}`,
-      text: `
+      await transporter.sendMail({
+        from: `"Portfolio Contact" <${GMAIL_USER}>`,
+        to: GMAIL_USER,
+        replyTo: data.email,
+        subject: `New message from ${data.name}`,
+        text: `
 Name: ${data.name}
 Email: ${data.email}
 
-
 Message:
 ${data.message}
-      `,
-    });
-
-    await db.collection("messages").insertOne({
-      ...data,
-      createdAt: new Date(),
-    });
+        `,
+      });
+    } else {
+      console.log("Contact form submission (email not configured):", data);
+    }
 
     return Response.json({ success: true });
   } catch (err) {
