@@ -49,8 +49,7 @@ function Header() {
             <a className='lg:mr-186 mr-28 cursor-pointer' href='#header'>aryapathak</a>
  
             <a href='#projects' className='cursor-pointer scroll-smooth'>projects</a>
-            <a href='#blogs' className='cursor-pointer'>blogs</a>
-           <a>work</a>
+           <a href="#work" className='cursor-pointer scroll-smooth'>work</a>
                           <ThemeToggleTwo/>
   
           </nav>

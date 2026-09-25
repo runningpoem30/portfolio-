@@ -11,7 +11,7 @@ type Project = {
 const projects: Project[] = [
   {
     name: "ForgeCI",
-    liveUrl: "https://forgeci.goarya.dev/",
+    liveUrl: "https://forgeci.aryp.me",
     liveLabel: "Live Demo",
     githubUrl: "https://github.com/runningpoem30/forgeCI",
     points: [
