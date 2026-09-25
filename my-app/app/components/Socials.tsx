@@ -17,7 +17,7 @@ this is get in touch button */}
          <a href="#contact" className="inline-block">
   <Button
     variant="outline"
-    className="lg:px-6 lg:py-7 font-lilex font-light lg:text-xl flex items-center gap-2 lg:[&_svg]:h-8 lg:[&_svg]:w-8 cursor-pointer"
+    className="h-12 px-5 font-lilex font-light text-base flex items-center gap-2 [&_svg]:h-5 [&_svg]:w-5 cursor-pointer"
   >
     <IconBrandTelegram />
     Get in touch !
@@ -33,7 +33,7 @@ this is get in touch button */}
  <Tooltip>
   <a href="https://x.com/PoemRunning" target="_blank"
   rel="noopener noreferrer">  <TooltipTrigger asChild>
-    <Button variant="outline" className="lg:py-6 lg:px-4 rounded-lg border-2 cursor-pointer lg:[&_svg]:h-8 lg:[&_svg]:w-8 ">
+    <Button variant="outline" className="h-12 w-12 rounded-lg border-2 cursor-pointer flex items-center justify-center [&_svg]:h-5 [&_svg]:w-5">
       <IconBrandX />
     </Button>
   </TooltipTrigger></a>
@@ -55,7 +55,7 @@ this is get in touch button */}
  <Tooltip>
   <a href="https://github.com/runningpoem30"  target="_blank"
   rel="noopener noreferrer"> <TooltipTrigger asChild>
-    <Button variant="outline" className="lg:py-6 lg:px-4 rounded-lg border-2 cursor-pointer lg:[&_svg]:h-8 lg:[&_svg]:w-8 ">
+    <Button variant="outline" className="h-12 w-12 rounded-lg border-2 cursor-pointer flex items-center justify-center [&_svg]:h-5 [&_svg]:w-5">
       <IconBrandGithub />
     </Button>
   </TooltipTrigger></a>
@@ -76,7 +76,7 @@ this is get in touch button */}
  <Tooltip>
   <a href="mailto:aryaanandpathak30@gmail.com"  target="_blank"
   rel="noopener noreferrer"> <TooltipTrigger asChild>
-    <Button variant="outline" className="lg:py-6 lg:px-4 rounded-lg border-2 cursor-pointer lg:[&_svg]:h-8 lg:[&_svg]:w-8 ">
+    <Button variant="outline" className="h-12 w-12 rounded-lg border-2 cursor-pointer flex items-center justify-center [&_svg]:h-5 [&_svg]:w-5">
       <IconMail />
     </Button>
   </TooltipTrigger></a>
@@ -98,7 +98,7 @@ this is get in touch button */}
   <a href="https://discord.com/users/783415905572880404"
       target="_blank"
       rel="noopener noreferrer"> <TooltipTrigger asChild>
-    <Button variant="outline" className="lg:py-6 lg:px-4 rounded-lg border-2 cursor-pointer lg:[&_svg]:h-8 lg:[&_svg]:w-8 ">
+    <Button variant="outline" className="h-12 w-12 rounded-lg border-2 cursor-pointer flex items-center justify-center [&_svg]:h-5 [&_svg]:w-5">
       <IconBrandDiscord />
     </Button>
   </TooltipTrigger></a>
