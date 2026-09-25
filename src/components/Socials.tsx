@@ -8,6 +8,7 @@ function Socials() {
     <div>
           <div className="flex">
       <div className="flex gap-x-5">
+<a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
           <Button
   variant="outline"
   className="px-6 py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
@@ -15,6 +16,7 @@ function Socials() {
   <IconFileCv size={80} /> 
   Resume
 </Button>
+</a>
 <Button
   variant="outline"
   className="px-6 py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8"
