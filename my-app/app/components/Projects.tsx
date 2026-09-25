@@ -59,10 +59,12 @@ const projects: Project[] = [
 
 function ProjectCard({ project }: { project: Project }) {
   return (
-    <div className="border-1 border-gray-300 dark:border-white/20 rounded-xl lg:mb-10 lg:pl-10 lg:pt-7 lg:pr-10 pl-7 pr-7 pt-5 pb-7 mb-10">
-      <div>
-        <h2 className="font-lilex lg:text-2xl font-bold">{project.name}</h2>
-        <p className="font-lilex font-bold mt-1">
+    <div className="flex flex-col gap-2 mb-8">
+      <div className="flex justify-between items-start md:items-center flex-col md:flex-row">
+        <h3 className="text-xl font-bold font-instrument">
+          {project.name}
+        </h3>
+        <span className="text-gray-500 text-sm mt-1 md:mt-0 font-lilex font-bold">
           {project.liveUrl && (
             <>
               <a
@@ -84,10 +86,10 @@ function ProjectCard({ project }: { project: Project }) {
           >
             GitHub
           </a>
-        </p>
+        </span>
       </div>
 
-      <ul className="list-disc pl-5 font-lilex lg:mt-5 space-y-2 mt-3">
+      <ul className="list-disc ml-5 mt-2 text-gray-700 dark:text-gray-300 space-y-1 font-lilex">
         {project.points.map((point) => (
           <li key={point}>{point}</li>
         ))}

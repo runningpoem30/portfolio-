@@ -4,6 +4,7 @@ import Socials from "./components/Socials";
 import Github from "./components/Github"
 import TechStack from "./components/TechStack";
 import Projects from "./components/Projects";
+import Work from "./components/Work";
 import HackathonWins from "./components/HackathonWins";
 import ContactMe from "./components/ContactMe";
 import Blogs from "./components/Blogs";
@@ -21,6 +22,7 @@ export default function Home() {
    <Socials/>
   <TechStack/>
    <Github/>
+   <Work/>
    <Projects/>
    <HackathonWins/>
    <Blogs/>

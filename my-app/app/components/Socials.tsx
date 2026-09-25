@@ -12,16 +12,6 @@ function Socials() {
           <div className="flex ">
       <div className="flex gap-x-5 lg:flex-row flex-col">
 
-{/* this is resume button */}
-<div className="flex gap-x-2">
-            <Button
-  variant="outline"
-  className="lg:px-6 lg:py-7 font-lilex font-light lg:text-xl flex items-center gap-2 lg:[&_svg]:h-8 lg:[&_svg]:w-8 cursor-pointer"
->
-  <IconFileCv size={70} /> 
-  Resume
-         </Button>
-
 {/* 
 this is get in touch button */}
          <a href="#contact" className="inline-block">
@@ -33,8 +23,6 @@ this is get in touch button */}
     Get in touch !
   </Button>
 </a>
-
-</div>
 
 <div className="lg:w-[0.3px] lg:h-8 lg:bg-gray-400 mt-2" />
 
