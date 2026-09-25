@@ -49,43 +49,52 @@ function ContactMe() {
 
 
   return ( 
-    <div id='contact'>
-       <div  className='font-instrument font-bold lg:text-3xl lg:mt-10 lg:mb-10 text-3xl mt-5'>Contact Me</div>
-       <h1 className='font-lilex font-bold lg:text-xl mb-1'>Send me a message </h1>
-       <h1 className='font-lilex mt-4'>Fill out the form below and I'll respond back to you within 24 hours ... </h1>
-       <form onSubmit={handleSubmit}>
-            <div className='flex flex-col lg:gap-5 mt-10 mb-10'>
-             <div className='flex lg:gap-20 flex-col lg:flex-row mb-5 lg:mb-1'>
+    <div id='contact' className="mb-20">
+       <div className='font-instrument font-bold text-3xl mt-10 mb-4'>Contact Me</div>
+       <p className='font-lilex text-gray-500 text-sm md:text-base'>Fill out the form below and I'll respond back to you within 24 hours.</p>
+       
+       <form onSubmit={handleSubmit} className="mt-6 max-w-xl">
+          <div className='flex flex-col gap-4'>
+            
+            <div className='flex flex-col lg:flex-row gap-4'>
+              <Input 
+                value={formData.name} 
+                onChange={handleChange} 
+                type="text" 
+                name="name" 
+                placeholder="Full Name" 
+                className='h-12 font-lilex text-base w-full'
+              />
+            </div>
 
-        <Input value={formData.name} onChange={handleChange} type="text" name="name" placeholder="Full Name" className='lg:w-150 h-15 placeholder:text-xl placeholder:font-lilex text-lg !text-xl font-lilex mb-5'/>
+            <Input 
+              value={formData.email} 
+              onChange={handleChange}  
+              type="email" 
+              name="email" 
+              placeholder="your.email@example.com" 
+              className='h-12 font-lilex text-base w-full' 
+            />
 
-       {/* <Input value={formData.phoneNumber}  onChange={handleChange} type="tel" name='phoneNumber' placeholder="+91 xxx-xxxx" className='lg:w-150 h-15 placeholder:text-xl placeholder:font-lilex !text-xl font-lilex'/> */}
-       </div>
+            <Textarea 
+              value={formData.message} 
+              onChange={handleChange}
+              name="message"
+              placeholder="Tell me what you are building or say hello (min 10 characters)..."
+              className="min-h-32 font-lilex text-base w-full resize-none"
+            />
 
-       <Input value={formData.email} onChange={handleChange}  type="email" name="email" placeholder="your.email@example.com" className='h-15 placeholder:text-xl placeholder:font-lilex !text-xl font-lilex ' />
+            <Button
+              type="submit"
+              variant="outline"
+              className="h-12 w-full lg:w-48 font-lilex font-light text-base flex items-center justify-center gap-2 cursor-pointer mt-2"
+            >
+              <IconBrandTelegram size={20} /> 
+              Send Message 
+            </Button>
 
-       <Textarea value={formData.message} onChange={handleChange}
-  name="message"
-  placeholder="Tell me what you are building or say hello ..."
-  className="lg:min-h-40 mt-5 min-h-30 !lg:text-xl !text-lg font-lilex placeholder:text-xl placeholder:font-lilex"
-/>
-
-     <Button
-            type="submit"
-            variant="outline"
-            className="px-6 py-7 font-lilex font-light lg:text-xl flex items-center gap-2 [&_svg]:h-8 [&_svg]:w-8 cursor-pointer mb-5 lg:w-70 lg:w-60 w-50 mt-5 text-lg"
-          >
-            <IconBrandTelegram size={80} /> 
-            Send Message 
-          </Button>
-
-
-       </div>
+          </div>
        </form>
-   
-   
-
-      
     </div>
   )
 }

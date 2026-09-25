@@ -7,7 +7,7 @@ import Projects from "./components/Projects";
 import Work from "./components/Work";
 import HackathonWins from "./components/HackathonWins";
 import ContactMe from "./components/ContactMe";
-import Blogs from "./components/Blogs";
+
 import Footer from "./components/Footer";
 export default function Home() {
   return (
@@ -24,7 +24,7 @@ export default function Home() {
    <Work/>
    <Projects/>
    <HackathonWins/>
-   <Blogs/>
+
    <ContactMe/>
    <Footer/>
 
