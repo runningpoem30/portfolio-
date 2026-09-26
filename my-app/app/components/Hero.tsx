@@ -49,7 +49,7 @@ function Body() {
             containerClassName="inline-block mr-1 ml-1"
           >
             <span className="relative z-10 dark:text-black/50">scalable</span>
-      </PointerHighlight>, reliable, and easy to maintain test.
+      </PointerHighlight>, reliable, and easy to maintain .
            </p>
         <br/>
         <br/>
