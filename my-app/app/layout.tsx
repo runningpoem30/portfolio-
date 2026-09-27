@@ -21,7 +21,7 @@ const lilex = Lilex({
 });
 
 export const metadata = {
-  title: "Arya Pathak (Arya Anand Pathak) | Software Engineer",
+  title: "Arya Pathak - Backend Developer and Full Stack",
   description: "Portfolio of Arya Pathak (Arya Anand Pathak), a Software Engineer from Bengaluru building modern web applications with TypeScript, React, Node.js, and Next.js.",
   keywords: ["Arya Pathak", "Arya Anand Pathak", "Software Engineer", "Web Developer", "Frontend Developer", "Full Stack Developer", "Bengaluru", "React", "Next.js"],
   authors: [{ name: "Arya Pathak" }],
@@ -37,6 +37,11 @@ export const metadata = {
     card: "summary_large_image",
     title: "Arya Pathak | Software Engineer",
     description: "Portfolio of Arya Pathak (Arya Anand Pathak)",
+  },
+  icons: {
+    icon: '/icon.jpg',
+    shortcut: '/icon.jpg',
+    apple: '/icon.jpg',
   },
 };
 
