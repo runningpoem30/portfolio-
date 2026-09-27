@@ -20,6 +20,26 @@ const lilex = Lilex({
   variable: "--font-lilex",
 });
 
+export const metadata = {
+  title: "Arya Pathak (Arya Anand Pathak) | Software Engineer",
+  description: "Portfolio of Arya Pathak (Arya Anand Pathak), a Software Engineer from Bengaluru building modern web applications with TypeScript, React, Node.js, and Next.js.",
+  keywords: ["Arya Pathak", "Arya Anand Pathak", "Software Engineer", "Web Developer", "Frontend Developer", "Full Stack Developer", "Bengaluru", "React", "Next.js"],
+  authors: [{ name: "Arya Pathak" }],
+  creator: "Arya Pathak",
+  openGraph: {
+    type: "website",
+    locale: "en_IN",
+    title: "Arya Pathak | Software Engineer",
+    description: "Portfolio of Arya Pathak (Arya Anand Pathak)",
+    siteName: "Arya Pathak",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Arya Pathak | Software Engineer",
+    description: "Portfolio of Arya Pathak (Arya Anand Pathak)",
+  },
+};
+
 export default function RootLayout({ children } : {children : ReactNode}) {
   return (
     <html lang="en" className="scroll-smooth">
