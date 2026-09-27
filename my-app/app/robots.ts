@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://aryap.me/sitemap.xml',
+    sitemap: 'https://aryp.me/sitemap.xml',
   }
 }
