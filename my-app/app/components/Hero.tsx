@@ -8,7 +8,7 @@ function Body() {
   return (
     <div className="lg:pt-20 flex flex-col items-start dark:text-white mb-10">
       
-      <div className="flex flex-col md:flex-row items-start md:items-center gap-6 lg:gap-8 mt-10 lg:mt-0 mb-10">
+      <div className="flex flex-row items-center gap-6 lg:gap-8 mt-10 lg:mt-0 mb-10">
         <Image
           src={PortfolioImage}
           alt="Arya Pathak"
@@ -49,7 +49,7 @@ function Body() {
             containerClassName="inline-block mr-1 ml-1"
           >
             <span className="relative z-10 dark:text-black/50">scalable</span>
-      </PointerHighlight>, reliable, and easy to maintain .
+      </PointerHighlight>, reliable, and easy to maintain the code and tech here.
            </p>
         <br/>
         <br/>
