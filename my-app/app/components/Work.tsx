@@ -13,9 +13,9 @@ const Work = () => {
             <h3 className="text-xl font-bold font-instrument">
               Backend Engineer Intern <span className="text-gray-500 font-normal">· Stealth Startup</span>
             </h3>
-            <span className="text-gray-500 text-sm mt-1 md:mt-0">September 2026 — Present</span>
+            <span className="text-gray-500 text-sm mt-1 md:mt-0">September 2026 — October 2026</span>
           </div>
-          <div className="text-gray-500 text-sm">Remote, Internship</div>
+          <div className="text-gray-500 text-sm">Remote, Contract</div>
           <ul className="list-disc ml-5 mt-2 text-gray-700 dark:text-gray-300 space-y-1">
             <li>Designing and implementing scalable backend architectures and API services.</li>
             <li>Optimizing database queries and integrating cloud infrastructure for improved performance.</li>
